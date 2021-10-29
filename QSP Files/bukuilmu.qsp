@@ -1,8 +1,8 @@
 {
     "name": "bukuilmu",
     "base_url": [
-        "https://www.bukuilmu.com/",
-        "https://bukuilmu.com/"
+        "https://www.lapakgorden.com/",
+        "https://lapakgorden.com/"
     ],
     "update_date": "2017-03-19",
     "author": "QloBOT Dev Team",
@@ -15,7 +15,7 @@
                 "selector": "[class*='product-title'] a",
                 "read": "attr:href",
                 "output_filter": {
-                    "start_with": "https://www.bukuilmu.com"
+                    "start_with": "https://www.lapakgorden.com"
                 }
         },
             "name": {
@@ -73,7 +73,7 @@
                 "read": "attr:src",
                 "output_filter": {
                     "start_with": 
-                    "https://www.bukuilmu.com"
+                    "https://www.lapakgorden.com"
                 }     
             },
             "cat_1": {
@@ -103,7 +103,7 @@
                         "selector": "#imgsingle > img",
                         "read": "attr:src",
                             "output_filter": {
-                                "start_with": "https://www.bukuilmu.com"
+                                "start_with": "https://www.lapakgorden.com"
                   
                         }                                                           
                     }
